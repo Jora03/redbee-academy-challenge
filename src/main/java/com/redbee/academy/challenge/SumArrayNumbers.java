@@ -14,7 +14,7 @@ public class SumArrayNumbers {
   public static Integer sum(List<Integer> array) {
    int sum = 0;
    int i
-   for (i= 0; i < arr.length; i++)
+   for (i = 0; i < arr.length; i++)
 	   sum += arr[i];
    return sum;
   }

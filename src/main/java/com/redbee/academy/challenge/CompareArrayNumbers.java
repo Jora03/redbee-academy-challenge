@@ -16,12 +16,12 @@ public class CompareArrayNumbers {
    List<Integer> miLista = new ArrayList<Integer>();
    
    for (int i = 0; i < a.size(); i++) {
-	   if (a.get(i)>b.get(i)) {
+	   if (a.get(i) > b.get(i)) {
 		   miLista.add(a.get(i));
 	   }else { 
 		   miLista.add(b.get(i));
 	   }
 	   }
-   return miLista
+   return miLista;
 	   }
    }

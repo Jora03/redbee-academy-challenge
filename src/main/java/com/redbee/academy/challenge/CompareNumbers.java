@@ -12,14 +12,13 @@ public class CompareNumbers {
    * @return The max of a, b and c
    */
   public static Integer max(Integer a, Integer b, Integer c) {
-    if (a > b && b > c) {
+    if (a > b && a > c) {
     	return a;
     }else {
     	if (b > a && b > c){
     	return b;
     }else {
-    	return c:}
-    		
+    	return c;
     	}
     }
   }
