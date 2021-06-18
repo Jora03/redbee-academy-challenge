@@ -13,10 +13,15 @@ public class CompareArrayNumbers {
    * @return The result of a + b
    */
   public static List<Integer> max(List<Integer> a, List<Integer> b) {
-    //TODO: Implement me
-    return null;
-  }
-
-
-
-}
+   List<Integer> miLista = new ArrayList<Integer>();
+   
+   for (int i = 0; i < a.size(); i++) {
+	   if (a.get(i)>b.get(i)) {
+		   miLista.add(a.get(i));
+	   }else { 
+		   miLista.add(b.get(i));
+	   }
+	   }
+   return miLista
+	   }
+   }
